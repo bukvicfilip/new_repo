@@ -1,4 +1,5 @@
 def mode(list_of_nums):
+	#prints the number that occurs most times
 	dict_of_nums={}
 	for num in list_of_nums:
 		dict_of_nums[num]=list_of_nums.count(num)
